@@ -1,3 +1,5 @@
+# Stake your SOL with JavaScript
+
 1. 创建项目
 
 ```
