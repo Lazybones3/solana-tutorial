@@ -1,0 +1,21 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+# [programs.localnet]
+[programs.devnet]
+gifportal = "AbjWHicHzynjDvZX1AQX7KDND9ZuoTS9Q64gypVrVkBh"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+# cluster = "localnet"
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "node tests/gifportal.js"
