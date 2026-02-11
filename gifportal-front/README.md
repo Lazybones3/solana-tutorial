@@ -1,6 +1,8 @@
 # DAPP PROJECT - Deploy a Web3 version of GIPHY
 
 ```
-npm install --legacy-peer-deps
-npm run start
+npm install
+npm run dev
+# generate keypair.json
+node createNewPair.js
 ```

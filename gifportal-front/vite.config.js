@@ -17,5 +17,14 @@ export default defineConfig({
     hmr: {
       port: 443,
     }
+  },
+  // fix: Big integer literals are not available in the configured target environment
+  build: {
+    target: 'es2020'
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      target: 'es2020'
+    }
   }
 })
